@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OceanView Hotel — Home</title>
+
+    <!-- Google Font (optional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">OceanView <span>Hotel</span></div>
+
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav">
+          <ul>
+            <li>
+              <a href="index.html" class="nav-link" data-link="home">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link" data-link="about">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link" data-link="contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO / SLIDER -->
+      <section class="hero">
+        <div id="heroSlider" class="slider">
+          <div
+            class="slide active"
+            style="
+              background-image: url('https://picsum.photos/1200/600?random=101');
+            ">
+            <div class="slide-content">
+              <h1>Welcome to OceanView</h1>
+              <p>Relax, recharge & enjoy the view.</p>
+              <a class="btn" href="#rooms">Explore Rooms</a>
+            </div>
+          </div>
+
+          <div
+            class="slide"
+            style="
+              background-image: url('https://picsum.photos/1200/600?random=102');
+            ">
+            <div class="slide-content">
+              <h1>Comfort & Style</h1>
+              <p>Rooms designed for rest and productivity.</p>
+              <a class="btn" href="#rooms">See Rooms</a>
+            </div>
+          </div>
+
+          <div
+            class="slide"
+            style="
+              background-image: url('https://picsum.photos/1200/600?random=103');
+            ">
+            <div class="slide-content">
+              <h1>Fine Dining</h1>
+              <p>Local flavors prepared by top chefs.</p>
+              <a class="btn" href="about.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-btn prev" aria-label="Previous slide">‹</button>
+        <button class="slider-btn next" aria-label="Next slide">›</button>
+      </section>
+
+      <!-- ROOMS -->
+      <section id="rooms" class="rooms container">
+        <h2 class="section-title">Our Rooms</h2>
+        <div class="rooms-grid">
+          <article class="card">
+            <img
+              src="https://picsum.photos/600/400?random=201"
+              alt="Deluxe room" />
+            <div class="card-body">
+              <h3>Deluxe Room</h3>
+              <p>King bed, sea view, complimentary breakfast.</p>
+              <div class="price">₦25,000 / night</div>
+              <a class="btn" href="contact.html">Book Now</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://picsum.photos/600/400?random=202"
+              alt="Suite room" />
+            <div class="card-body">
+              <h3>Executive Suite</h3>
+              <p>Spacious lounge, private balcony, workspace.</p>
+              <div class="price">₦45,000 / night</div>
+              <a class="btn" href="contact.html">Book Now</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://picsum.photos/600/400?random=203"
+              alt="Standard room" />
+            <div class="card-body">
+              <h3>Standard Room</h3>
+              <p>Comfortable and affordable — perfect for short stays.</p>
+              <div class="price">₦15,000 / night</div>
+              <a class="btn" href="contact.html">Book Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ABOUT PREVIEW -->
+      <section class="about-preview container">
+        <div class="about-inner">
+          <h2>About OceanView</h2>
+          <p>
+            OceanView blends modern design, friendly service, and a front-row
+            seat to the sea. Located close to local attractions with comfortable
+            rooms and top-class amenities.
+          </p>
+          <a class="btn ghost" href="about.html">Learn more</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>OceanView Hotel</strong>
+          <p class="muted">123 Beachside Avenue — Lagos</p>
+        </div>
+        <div class="footer-right">
+          <p class="muted">© <span id="year"></span> OceanView</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OceanView Hotel — Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="contact">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">OceanView <span>Hotel</span></div>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav id="primary-nav" class="primary-nav">
+          <ul>
+            <li>
+              <a href="index.html" class="nav-link" data-link="home">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link" data-link="about">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link" data-link="contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <section class="container contact-section">
+        <h2>Contact Us</h2>
+
+        <div class="contact-grid">
+          <!-- FORM -->
+          <div class="contact-form-card">
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name"
+                  >Full Name <span class="required">*</span></label
+                >
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  required
+                  placeholder="Your full name" />
+              </div>
+
+              <div class="form-group">
+                <label for="email"
+                  >Email Address <span class="required">*</span></label
+                >
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  placeholder="you@example.com" />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="+234 800 000 0000" />
+              </div>
+
+              <div class="form-group">
+                <label for="message"
+                  >Message <span class="required">*</span></label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="How can we help?"></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn">Send Message</button>
+              </div>
+            </form>
+            <p class="muted small">
+              This form uses client-side validation only (demo). To accept
+              messages on your site, connect this form to a server or service
+              (PHP, Node, Formspree, etc.).
+            </p>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <aside class="contact-info">
+            <h3>Reach us</h3>
+            <p class="muted">
+              Phone: +234 800 000 0000<br />
+              Email: hello@oceanview.example
+            </p>
+            <div class="map-placeholder" aria-hidden="true">
+              <!-- Replace with a Google Maps embed or image -->
+              <p>Map placeholder — embed your map iframe here.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>OceanView Hotel</strong>
+          <p class="muted">123 Beachside Avenue — Lagos</p>
+        </div>
+        <div class="footer-right">
+          <p class="muted">© <span id="year-3"></span> OceanView</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
+<!DOCTYPE html>

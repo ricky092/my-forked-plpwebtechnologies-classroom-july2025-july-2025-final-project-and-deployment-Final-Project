@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OceanView Hotel — About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="about">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">OceanView <span>Hotel</span></div>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav id="primary-nav" class="primary-nav">
+          <ul>
+            <li>
+              <a href="index.html" class="nav-link" data-link="home">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link" data-link="about">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link" data-link="contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="hero hero-small"
+        style="
+          background-image: url('https://picsum.photos/1200/400?random=110');
+        ">
+        <div class="hero-overlay">
+          <div class="container">
+            <h1>About OceanView</h1>
+            <p class="muted">
+              Our story, values and the team that makes your stay special.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container about-content">
+        <div class="two-col">
+          <div>
+            <h2>Our Story</h2>
+            <p>
+              Founded to celebrate coastal living, OceanView is dedicated to
+              sustainable hospitality and authentic local experiences. We source
+              ingredients from local producers and focus on warm service.
+            </p>
+            <h3>Facilities</h3>
+            <ul class="muted">
+              <li>Free Wi-Fi</li>
+              <li>On-site restaurant & bar</li>
+              <li>24/7 reception</li>
+              <li>Conference & event spaces</li>
+            </ul>
+          </div>
+
+          <aside class="team-card">
+            <h3>Meet the Team</h3>
+            <p class="muted">
+              Friendly faces ready to help, from reservations to concierge.
+            </p>
+            <div class="team-grid">
+              <div>
+                <img
+                  src="https://picsum.photos/200/200?random=301"
+                  alt="Manager" /><strong>Grace</strong
+                ><span class="muted">General Manager</span>
+              </div>
+              <div>
+                <img
+                  src="https://picsum.photos/200/200?random=302"
+                  alt="Chef" /><strong>Daniel</strong
+                ><span class="muted">Head Chef</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>OceanView Hotel</strong>
+          <p class="muted">123 Beachside Avenue — Lagos</p>
+        </div>
+        <div class="footer-right">
+          <p class="muted">© <span id="year-2"></span> OceanView</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

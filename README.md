@@ -1,90 +1,89 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+🌊 OceanView Hotel Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A simple, responsive hotel website built with HTML5, CSS3, and JavaScript.
+The site includes three main pages (Home, About, Contact) with modern styling, semantic structure, and basic interactivity.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+✨ Features
 
----
+Responsive Design – Works across desktops, tablets, and mobile devices.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Three Pages –
 
-Before you write any code, take time to plan:
+🏠 Home – welcoming hero section + image slider.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+ℹ️ About – information about the hotel and its amenities.
 
-**Goal:** Show intentional structure and user journey across the site.
+📩 Contact – clean and organized contact form with validation.
 
----
+Semantic HTML5 – clean structure for accessibility and SEO.
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+CSS3 Styling – modern layout with colors, shadows, and responsive grid.
 
-Using your plan, begin building:
+JavaScript Interactivity – form validation + image slider.
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+📂 Project Structure
+hotel-website/
+│
+├── index.html # Home page
+├── about.html # About page
+├── contact.html # Contact page
+│
+├── css/
+│ └── style.css # Main stylesheet
+│
+├── js/
+│ └── main.js # JavaScript (menu toggle, slider, validation)
+│
+└── assets/
+├── images/ # Images (hero, rooms, slider, etc.)
+└── icons/ # Optional icons or logos
 
-Each page should:
+🛠️ Technologies Used
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+HTML5 → Semantic structure.
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+CSS3 → Styling, responsive layout, hover/focus effects.
 
----
+JavaScript (ES6) → Navigation toggle, image slider, form validation.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+🚀 How to Run
 
-Before deployment, refactor your project to follow production-friendly practices:
+Clone or download this repository.
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Open index.html in your browser.
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Navigate between pages (Home, About, Contact).
 
----
+No server setup required — works as a static website.
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+📸 Screenshots
+Home Page
 
-Once your project is complete, choose a method to **host your site online**.
+About Page
 
-You can use:
+Contact Page
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+🔮 Future Improvements
 
-Deploy your project and confirm that:
+To enhance the website and provide more functionality, the following features are planned:
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+🛎️ Online Booking System – allow users to reserve rooms directly.
 
-**Goal:** Publish your work online and make it accessible to the world.
+🖼️ Photo Gallery – showcase hotel rooms, amenities, and views.
 
----
+⭐ Customer Testimonials – add reviews from past guests for credibility.
 
-## Deliverables
+🌍 Google Maps Integration – interactive location map.
 
-1. A GitHub repository containing:
+🌐 Multi-language Support – cater to international visitors.
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+🔐 Secure Backend – integrate with a server for real contact form submissions and booking management.
 
----
+📩 Contact
 
-## Outcome
+OceanView Hotel
+📍 123 Beachside Avenue, Lagos
+📞 +234 800 000 0000
+✉️ hello@oceanview.example
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+👉
