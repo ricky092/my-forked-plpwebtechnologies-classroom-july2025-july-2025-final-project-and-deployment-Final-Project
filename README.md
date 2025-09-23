@@ -79,7 +79,7 @@ To enhance the website and provide more functionality, the following features ar
 
 🔐 Secure Backend – integrate with a server for real contact form submissions and booking management.
 
-📩 Contact
+📩 Contact you visit the website link here : https://ricky092.github.io/my-forked-plpwebtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project/
 
 OceanView Hotel
 📍 123 Beachside Avenue, Lagos
